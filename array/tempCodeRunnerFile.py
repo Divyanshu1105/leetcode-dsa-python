@@ -1,0 +1,2 @@
+
+        if nums[idx] < minVal:

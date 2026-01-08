@@ -20,4 +20,4 @@ def FindMin(nums):
 
     return nums[left]
 
-print(FindMin([1,2]))
+print(FindMin([4,5,6,7,0,1,2]))
