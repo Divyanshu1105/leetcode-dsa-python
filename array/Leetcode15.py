@@ -1,5 +1,11 @@
 def threeSum(nums):
     #first sort the array and used two pointer approach
+    """
+    Sort + Two Pointers approach to find all unique triplets summing to zero.
+
+    Time Complexity: O(n²) - Single sort O(n log n) + O(n) per i-loop (two pointers)
+    Space Complexity: O(1) extra space (excluding output array)
+    """
 
     nums.sort()
     result = []
