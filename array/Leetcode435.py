@@ -3,7 +3,8 @@ def eraseOverlapIntervals(intervals):
     if not intervals:
         return 0
     
-    intervals.sort(key=lambda x : x[-1]) #[[1,2],[1,3],[2,3],[3,4]]
+    # we sort array reverse
+    intervals.sort(key=lambda x : x[-1]) 
 
     noOverLap = []
     jump = 0
